@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OswardSpin Laundry Services</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0077b6;
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    text-align:center;
+}
+
+nav{
+    text-align:center;
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    background:url("laundry.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h2{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.hero button{
+    margin-top:25px;
+    padding:15px 30px;
+    background:orange;
+    border:none;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:#ff6600;
+}
+
+section{
+    padding:50px;
+}
+
+h2{
+    color:#0077b6;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.about p{
+    text-align:center;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:15px 0;
+    color:#0077b6;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid gray;
+}
+
+th{
+    background:#0077b6;
+    color:white;
+}
+
+th,td{
+    padding:15px;
+    text-align:center;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.review{
+    background:white;
+    padding:20px;
+    border-left:5px solid #0077b6;
+    box-shadow:0 0 8px rgba(0,0,0,.2);
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px;
+    font-size:18px;
+}
+
+footer{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>OswardSpin Laundry Services</h1>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#prices">Prices</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="hero">
+
+<h2>Professional Laundry Services</h2>
+
+<p>Clean Clothes • Fresh Smell • Affordable Prices</p>
+
+<button>Book Now</button>
+
+</div>
+
+<section id="about" class="about">
+
+<h2>About Us</h2>
+
+<p>
+
+OswardSpin Laundry Services provides professional washing,
+drying, ironing and folding services. Our goal is to deliver
+clean, fresh and neatly pressed clothes to every customer
+while saving them time.
+
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+
+<img src="washing.jpg">
+
+<h3>Washing</h3>
+
+<p>Professional washing using quality detergents.</p>
+
+</div>
+
+<div class="card">
+
+<img src="ironing.jpg">
+
+<h3>Ironing</h3>
+
+<p>Neatly ironed clothes ready to wear.</p>
+
+</div>
+
+<div class="card">
+
+<img src="blankets.jpg">
+
+<h3>Blankets & Duvets</h3>
+
+<p>Deep cleaning of blankets, comforters and duvets.</p>
+
+</div>
+
+<div class="card">
+
+<img src="pickup.jpg">
+
+<h3>Pickup & Delivery</h3>
+
+<p>Convenient collection and delivery service.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Why Choose Us?</h2>
+
+<ul>
+
+<li>✔ Affordable Prices</li>
+
+<li>✔ Fast Turnaround</li>
+
+<li>✔ Professional Equipment</li>
+
+<li>✔ Friendly Customer Service</li>
+
+<li>✔ Quality Detergents</li>
+
+<li>✔ Pickup and Delivery Available</li>
+
+</ul>
+
+</section>
+
+<section id="prices">
+
+<h2>Price List</h2>
+
+<table>
+
+<tr>
+
+<th>Service</th>
+
+<th>Price</th>
+
+</tr>
+
+<tr>
+
+<td>Shirts</td>
+
+<td>K20</td>
+
+</tr>
+
+<tr>
+
+<td>Trousers</td>
+
+<td>K25</td>
+
+</tr>
+
+<tr>
+
+<td>School Uniform</td>
+
+<td>K30</td>
+
+</tr>
+
+<tr>
+
+<td>Blankets</td>
+
+<td>K80</td>
+
+</tr>
+
+<tr>
+
+<td>Duvets</td>
+
+<td>K120</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="image 1.jfif">
+
+<img src="image 2.jfif">
+
+<img src="image 3.jfif">
+
+<img src="image 7.jfif">
+
+<img src="image 6.jfif">
+
+<img src="image 4.jfif">
+
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Customer Reviews</h2>
+
+<div class="testimonials">
+
+<div class="review">
+
+★★★★★
+
+<p>
+
+"The best laundry service I've ever used.
+My clothes always smell fresh."
+
+</p>
+
+<strong>- Happy Customer</strong>
+
+</div>
+
+<div class="review">
+
+★★★★★
+
+<p>
+
+"Affordable and very professional.
+Highly recommended."
+
+</p>
+
+<strong>- Customer</strong>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 Phone: +260 XXX XXX XXX</p>
+
+<p>📧 Email: info@oswardspin.com</p>
+
+<p>📍 Zambia</p>
+
+<p>Working Hours:</p>
+
+<p>Monday - Saturday</p>
+
+<p>08:00 AM - 06:00 PM</p>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 OswardSpin Laundry Services.
+
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+</html>
